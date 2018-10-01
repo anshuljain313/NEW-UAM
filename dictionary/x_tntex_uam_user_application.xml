@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Application" max_length="40" name="x_tntex_uam_user_application" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Application Reference" mandatory="true" max_length="40" name="app_id" reference="cmdb_ci_business_app" type="reference"/>
+        <element label="Business Owner" max_length="32" name="business_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Technical Information" max_length="1000" name="technical_information" type="string"/>
+        <element label="Technical Owner" max_length="32" name="technical_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="technical_owner"/>
+        </index>
+        <index name="index2">
+            <element name="business_owner"/>
+        </index>
+    </element>
+</database>

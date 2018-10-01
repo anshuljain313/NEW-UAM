@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="User to Application" max_length="40" name="x_tntex_uam_user_user_to_application" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Application" mandatory="true" max_length="32" name="application" reference="x_tntex_uam_user_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Granted Date" max_length="40" name="granted_date" type="glide_date"/>
+        <element label="Granted RITM" max_length="32" name="granted_ritm" reference="sc_req_item" type="reference"/>
+        <element label="Removed Date" max_length="40" name="removed_date" type="glide_date"/>
+        <element label="Removed RITM" max_length="32" name="removed_ritm" reference="sc_req_item" type="reference"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="removed_ritm"/>
+        </index>
+        <index name="index2">
+            <element name="application"/>
+        </index>
+        <index name="index3">
+            <element name="granted_ritm"/>
+        </index>
+        <index name="index4">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
