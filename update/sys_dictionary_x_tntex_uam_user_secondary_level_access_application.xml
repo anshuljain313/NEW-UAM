@@ -57,7 +57,7 @@
         <sys_created_by>z738sfs</sys_created_by>
         <sys_created_on>2018-09-25 12:04:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f95f2549db7823805baf944adb96197d</sys_id>
+        <sys_id>de9ff7bedb3ca740a548f7871d961986</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Application</sys_name>
         <sys_package display_value="UAM - User Access Management" source="x_tntex_uam_user">0084c42adb6463005baf944adb961913</sys_package>
@@ -65,8 +65,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="UAM - User Access Management">0084c42adb6463005baf944adb961913</sys_scope>
         <sys_update_name>sys_dictionary_x_tntex_uam_user_secondary_level_access_application</sys_update_name>
-        <sys_updated_by>z738sfs</sys_updated_by>
-        <sys_updated_on>2018-09-25 12:04:12</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-01 09:03:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

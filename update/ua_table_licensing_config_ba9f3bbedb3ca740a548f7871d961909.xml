@@ -5,24 +5,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_tntex_uam_user_secondary_level_access</name>
+        <name>x_tntex_uam_user_application</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>z738sfs</sys_created_by>
-        <sys_created_on>2018-09-25 12:01:42</sys_created_on>
+        <sys_created_on>2018-09-17 10:05:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>39ee2105db7823805baf944adb961909</sys_id>
+        <sys_id>ba9f3bbedb3ca740a548f7871d961909</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_tntex_uam_user_secondary_level_access</sys_name>
+        <sys_name>x_tntex_uam_user_application</sys_name>
         <sys_package display_value="UAM - User Access Management" source="x_tntex_uam_user">0084c42adb6463005baf944adb961913</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="UAM - User Access Management">0084c42adb6463005baf944adb961913</sys_scope>
-        <sys_update_name>ua_table_licensing_config_39ee2105db7823805baf944adb961909</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_ba9f3bbedb3ca740a548f7871d961909</sys_update_name>
         <sys_updated_by>z738sfs</sys_updated_by>
-        <sys_updated_on>2018-09-25 12:01:42</sys_updated_on>
+        <sys_updated_on>2018-09-17 10:05:06</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
