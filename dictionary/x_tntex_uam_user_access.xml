@@ -6,6 +6,9 @@
         <element label="Application" max_length="32" name="application" reference="x_tntex_uam_user_application" type="reference"/>
         <element label="Approval Groups" max_length="4000" name="approval_groups" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element label="Approvers" max_length="4000" name="approvers" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Conflicting Applications" max_length="4000" name="conflicting_applications" reference="x_tntex_uam_user_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Conflicting First Level Access" max_length="4000" name="conflicting_first_level_access" reference="x_tntex_uam_user_access" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Conflicting Second Level Access" max_length="4000" name="conflicting_second_level_access" reference="x_tntex_uam_user_secondary_level_access" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
