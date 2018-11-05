@@ -6,6 +6,7 @@
         <element label="Application" mandatory="true" max_length="32" name="application" reference="x_tntex_uam_user_user_to_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Granted Date" max_length="40" name="granted_date" type="glide_date"/>
         <element label="Granted RITM" max_length="32" name="granted_ritm" reference="sc_req_item" type="reference"/>
+        <element label="Location/Depot Access" max_length="4000" name="location_access" reference="cmn_location" reference_qual="u_boolean_1=true^EQ" reference_qual_condition="u_boolean_1=true^EQ" type="glide_list"/>
         <element label="Removed Date" max_length="40" name="removed_date" type="glide_date"/>
         <element label="Removed RITM" max_length="32" name="removed_ritm" reference="sc_req_item" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
