@@ -11,11 +11,15 @@
         <element label="Conflicting Second Level Access" max_length="4000" name="conflicting_second_level_access" reference="x_tntex_uam_user_secondary_level_access" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element label="Country Access" max_length="4000" name="country_access" reference="core_country" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Fulfillment Group" max_length="32" name="fulfillment_group" reference="sys_user_group" type="reference"/>
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Technical Information" max_length="1000" name="technical_information" type="string"/>
         <index name="index">
             <element name="application"/>
+        </index>
+        <index name="index2">
+            <element name="fulfillment_group"/>
         </index>
     </element>
 </database>
