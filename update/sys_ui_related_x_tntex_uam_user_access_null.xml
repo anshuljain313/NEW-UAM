@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_tntex_uam_user_access" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="First Level Access - Default view" name="x_tntex_uam_user_access" related_list="NULL" sys_domain="global" view="Default view">4ee08f1bdb316300a548f7871d9619b9</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_tntex_uam_user_secondary_level_access.first_level_access</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>T507UZL</sys_created_by>
+            <sys_created_on>2018-11-21 10:49:06</sys_created_on>
+            <sys_id>06e08f1bdb316300a548f7871d9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>T507UZL</sys_updated_by>
+            <sys_updated_on>2018-11-21 10:49:06</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="First Level Access - Default view" name="x_tntex_uam_user_access" related_list="NULL" sys_domain="global" view="Default view">4ee08f1bdb316300a548f7871d9619b9</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_tntex_uam_user_application.conflicting_first_level_access</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>T507UZL</sys_created_by>
+            <sys_created_on>2018-11-21 10:49:06</sys_created_on>
+            <sys_id>0ae08f1bdb316300a548f7871d9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>T507UZL</sys_updated_by>
+            <sys_updated_on>2018-11-21 10:49:06</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="First Level Access - Default view" name="x_tntex_uam_user_access" related_list="NULL" sys_domain="global" view="Default view">4ee08f1bdb316300a548f7871d9619b9</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_tntex_uam_user_access.conflicting_first_level_access</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>T507UZL</sys_created_by>
+            <sys_created_on>2018-11-21 10:49:06</sys_created_on>
+            <sys_id>0ee08f1bdb316300a548f7871d9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>T507UZL</sys_updated_by>
+            <sys_updated_on>2018-11-21 10:49:06</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="First Level Access - Default view" name="x_tntex_uam_user_access" related_list="NULL" sys_domain="global" view="Default view">4ee08f1bdb316300a548f7871d9619b9</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_tntex_uam_user_secondary_level_access.conflicting_first_level_access</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>T507UZL</sys_created_by>
+            <sys_created_on>2018-11-21 10:49:06</sys_created_on>
+            <sys_id>02e08f1bdb316300a548f7871d9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>T507UZL</sys_updated_by>
+            <sys_updated_on>2018-11-21 10:49:06</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>First Level Access - Default view</calculated_name>
+            <filter/>
+            <name>x_tntex_uam_user_access</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>T507UZL</sys_created_by>
+            <sys_created_on>2018-11-21 10:49:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>4ee08f1bdb316300a548f7871d9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>First Level Access - Default view</sys_name>
+            <sys_package display_value="UAM - User Access Management" source="x_tntex_uam_user">0084c42adb6463005baf944adb961913</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="UAM - User Access Management">0084c42adb6463005baf944adb961913</sys_scope>
+            <sys_update_name>sys_ui_related_x_tntex_uam_user_access_null</sys_update_name>
+            <sys_updated_by>T507UZL</sys_updated_by>
+            <sys_updated_on>2018-11-21 10:49:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
